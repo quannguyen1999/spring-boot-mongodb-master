@@ -23,7 +23,11 @@ public class ProductController {
 
     private ProductToProductForm productToProductForm;
 
-    @Autowired
+    public ProductController(ProductService productService2) {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Autowired
     public void setProductToProductForm(ProductToProductForm productToProductForm) {
         this.productToProductForm = productToProductForm;
     }

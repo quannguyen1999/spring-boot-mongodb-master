@@ -23,7 +23,8 @@ public class ProductController {
 
     private ProductToProductForm productToProductForm;
 
-    public ProductController(ProductService productService2) {
+    public ProductController(ProductService productService) {
+    	 this.productService = productService;
 		// TODO Auto-generated constructor stub
 	}
 
